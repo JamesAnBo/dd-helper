@@ -8,10 +8,14 @@ drawdistance by atom0s is required (https://github.com/AshitaXI/Ashita-v4beta/tr
 Distances are for both world and mob.
 
 Default distances for are:
-  normal - 10
-  low - 1
+```
+  normaldraw - 10
+  lowdraw - 1
+```
+Change this near the top of dd-helper.lua
 
 Default zones for low draw distance are:
+```
   Promyvion Holla
   Promyvion Dem
   Promyvion Mea
@@ -37,3 +41,5 @@ Default zones for low draw distance are:
   Bhaflau Remnants
   Silver Sea Remnants
   Nyzul Isle
+```
+Change these near the bottom of ddh-zones.lua
